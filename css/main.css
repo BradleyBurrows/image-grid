@@ -24,10 +24,11 @@ body {
 img {
   width: 100%;
   height: 100%;
+  display: block;
 }
+
 .photo {
   display: flex;
-  transform: translateY(0px);
 }
 
 div:nth-child(2) {
@@ -57,7 +58,7 @@ div:nth-child(5) {
   }
 
   div:nth-child(odd) {
-    float:right;
+    float: right;
   }
 
   div:nth-child(even) {
@@ -88,11 +89,11 @@ div:nth-child(5) {
   }
 
   div:nth-child(3) {
-    transform: translateX(-202.66px)
+    transform: translateX(-202.66px);
   }
 
   div:nth-child(4) {
-    transform: translateX(202.66px)
+    transform: translateX(202.66px);
   }
 
 }
@@ -110,7 +111,7 @@ div:nth-child(5) {
   }
 
   .photo:nth-child(1) {
-    display: translateX(0.1px);
+    transform: translateX(1px);
   }
 
   div:nth-child(1) {
@@ -141,15 +142,15 @@ div:nth-child(5) {
   }
 
   div:nth-child(5) {
-    transform: translateX(0);
+    transform: translateX(480px);
   }
 
   div:nth-child(3) {
-    transform: translateX(0);
+    transform: translateX(-960px);
   }
 
   div:nth-child(4) {
-    transform: translateX(0);
+    transform: translateX(480px);
   }
 
 }
